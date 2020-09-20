@@ -31,7 +31,6 @@ const TableElem = ({ tableData, onRowClick }) => {
           ))}
         </tr>
       </thead>
-
       <tbody className={styles.tbody}>
         {tableRows.map((data, index) => (
           <tr key={index} onClick={() => onRowClick(data)}>
